@@ -1,3 +1,4 @@
+'use client';
 import { Icon } from '@iconify/react'
 import Link from 'next/link'
 import React from 'react'
@@ -17,7 +18,7 @@ const SideBar = () => {
     { title: 'Personnels', icon: 'mdi:account-multiple', href: '' },
     { title: 'Cours', icon: 'mdi:book-open-page-variant', href: '' },
     { title: 'Données générales', icon: 'mdi:database', href: '' },
-    { title: 'Matériels', icon: 'mdi:package-variant', href: '' },
+    { title: 'Matériels', icon: 'mdi:package-variant', href: '/materiel' },
     { title: 'Paramètres', icon: 'mdi:cog', href: '' },
   ]
 

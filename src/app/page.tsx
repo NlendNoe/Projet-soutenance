@@ -6,14 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <div className="flex flex-row gap-7">
-        <SideBar />
-        <div>
-          <AdminBar />
-          <Dashboard />
-          </div>
-
-      </div>
+      <Dashboard />
 
     </div>
   );
