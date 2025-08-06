@@ -16,6 +16,7 @@ const SideBar = () => {
     { title: 'Étudiants', icon: 'mdi:account-group', href: '' },
     { title: 'Personnels', icon: 'mdi:account-multiple', href: '' },
     { title: 'Cours', icon: 'mdi:book-open-page-variant', href: '' },
+    { title: 'Données générales', icon: 'mdi:database', href: '' },
     { title: 'Matériels', icon: 'mdi:package-variant', href: '' },
     { title: 'Paramètres', icon: 'mdi:cog', href: '' },
   ]
