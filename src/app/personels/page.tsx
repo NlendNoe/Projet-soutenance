@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Materiels = () => {
+const Personels = () => {
   return (
     <div className='-mt-4 pl-10 pr-10'>
-      <h1 className='text-2xl font-bold'>Matériels</h1>
+      <h1 className='text-2xl font-bold'>Personnels</h1>
 
       <div>
         
@@ -12,4 +12,4 @@ const Materiels = () => {
   )
 }
 
-export default Materiels
+export default Personels
